@@ -53,7 +53,7 @@ ul {
     font-size: 4rem;
 }
 
-.ini-button {
+.ini-button, .btn-categ-prods {
     padding: 1rem 2rem;
     border: none;
     background-color: rgb(153, 85, 22);
@@ -79,7 +79,7 @@ ul {
 .card-img-tope{
     width: 10rem;
 }
-.docinhos-dest{
+.docinhos-dest, .produtos{
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -123,15 +123,70 @@ p{
     display: flex;
     justify-content: center;
 }
+
+.cats{
+    height: 12rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover    ;
+    color: white;
+
+
+    font-family: 'Libre Caslon Display';
+    font-size: 4rem;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
 .cats1{
-    background-image: url("https://uploads.metroimg.com/wp-content/uploads/2022/04/08092542/Forma-de-cupcake.jpg");
+    background:  rgba(0,0,0,0.5)url("images/Forma-de-cupcake.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover    ;
 }
 .cats2{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0acXRh2vrpHlF_1kyV797quTZLJnggctUA&s");
+    background:  rgba(0,0,0,0.5)url("images/receita-de-waffles-delicioso-moinho-globo.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover    ;
 }
 .cats3{
-    background-image: url("https://bolosparavender.com/wp-content/uploads/2018/11/sabores-de-bolo-caseiro-para-vender-morango-1200x675.jpg");
+    background:  rgba(0,0,0,0.5)url("images/sabores-de-bolo-caseiro-para-vender-morango-1200x675.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover    ;
 }
 .cats4{
-    background-image: url("https://blog.colombo.com.br/wp-content/uploads/2020/07/f35fdee2-f603-4b3e-8087-fd4e1ed96a88.jpg");
+    background:  rgba(0,0,0,0.5)url("images/f35fdee2-f603-4b3e-8087-fd4e1ed96a88.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover    ;
 }
+
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.prods-cards{
+    display: flex;
+    gap: 1rem;
+}
+.produtos .card-prods{
+    display: none;
+}
+.produtos .show{
+    display: block;
+}
+
+
